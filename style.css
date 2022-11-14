@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height:100vh;
+    background-color: #7945ff;
+    padding: 1rem;
+}
+#title{
+    text-align: center;
+    color: white;
+    
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.player1 , .player2{
+    width:150px;
+    height:170px;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+#Board{
+    width:575px;
+    height:520px;
+    background-color:#ffffff;
+    border: 3px solid black;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.round{
+    width: 70px;
+    height:70px;
+    background-color:#7945ff;
+    /* background-color: red; */
+    margin: 5px;
+    border:5px solid black;
+    border-radius: 50%;
+}
+
+.redBackGround{
+    background-color: red;
+}
+
+.yellowBackGround{
+    background-color: yellow;
+}
